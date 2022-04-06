@@ -1,14 +1,8 @@
 # Actividad dirigida 2
 
-Para la actividad dirigida 2, lo primero que realizamos es importar la librería requests para bajarnos la página web de donde queremos extraer los datos y luego importamos la librería BeautifulSoup para interpretar el código HTML.
-Estos son los otros pasos:
-* Se deben establecer las variables como la URL que en este caso es del [El Pais](https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/), que dirige a un medallero de los Juegos de Tokio 2020 y que será la página a la que realizaremos en scraping.
-* *Realizamos la petición a la web* se define que si el estatus code no es 200 no se puede leer la página. En caso de que si sea 200, se imprime en la página **"vamos a por ello"**
-* Después, pasamos el contenido HTML de la web a un objeto 'BeautifulSoup()'', que representa al árbol de objetos Python resultante de parsear el documento HTML de entrada.
-* Definimos las variables países, oros, plata, bronce, total, etc y las identificamos con la función `find_all()`, para obtener todas las etiquetas que cumplan con las condiciones del objeto HTML.
-* Se realiza la pregunt: ¿QUIERES CONOCER LOS 20 PAÍSES QUE HAN OBTENIDO MÁS MEDALLAS EN 2020?\n \n Si tu respuesta es Sí, presiona "s" \n'. En caso de que la persona presione `s`, se imprimirá la frase **"De acuerdo"**
-* Bucle para obtener los datos: finalmente para obtener los datos realizaremos un bucle for, es decir, repetiremos el bloque de instrucciones en un rango de 20 veces. ya que estas han sido determinadas previamente a través del código `for i in range (20)`.
-Una vez y se excesa el número de intentos, la página imprimirá **Qué lástima, y...**
+En esta actividad dirigida se realizó un ejercicio de Web Scraping sobre la tabla del [Medallero de Tokio 2020](https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/), que se encuentra en la página web de [El País](https://elpais.com/)
+
+En el notebook [scraping.ipynb](https://github.com/nebrijas/periodismodedatos-mariaandrea21/blob/main/scraping.ipynb) se encuentra el paso a pasado que hemos seguido para obtener toda la información del código que aparece debajo.
 
 ```
 from bs4 import BeautifulSoup
