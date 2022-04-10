@@ -3,7 +3,7 @@
 [DW Noticias](https://www.dw.com/es/rusia-ataca-a-ucrania-la-crisis-en-gr%C3%A1ficos/a-61004805)
 Para nadie es un secreto que la **invasión de Rusia a Ucrania** ha prendido las alarmas de todos los países pues el gobierno de Putin ha ido amenazando con **armas nucleares**. Esto ha ocasionado la huida de cuatro millones de personas, según la ONU. 
 En este artículo que muestra las consecuencias de **la guerra entre ambos países**, se emplean infografías realizadas por el medio de comunicación a través de aplicaciones de diseño como *Photoshop o Canva*
-### A dónde huye la gente de Ucrania
+### ¿A dónde huye la gente de Ucrania?
 ![A dónde huye la gente de Ucrania](https://static.dw.com/image/61005213_7.png)
 En el primer gráfico, un mapa publicado el 3 de marzo, se ven cuáles son **los países a los que están huyendo los ucranianos en medio del conflicto**, así como la cantidad de personas que se han movilizado a dichos territorios. En este punto, considero que es claro e informativo, sin embargo, *se pudieron incluir colores diferentes por cada uno de las naciones* o, incluso, la bandera que representa a cada uno.
 ### Ucrania y Rusia: correlación de fuerzas militares
